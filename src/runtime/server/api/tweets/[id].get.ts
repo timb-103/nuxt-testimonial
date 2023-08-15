@@ -2,6 +2,7 @@ import { defineEventHandler, createError } from "h3";
 import type { Tweet } from "../../../../types";
 import { useRenderTweet } from "../../utils/render";
 import { cachedEventHandler } from "#imports";
+import { ofetch } from "ofetch";
 
 export default cachedEventHandler(
   async (event) => {
@@ -13,10 +14,10 @@ export default cachedEventHandler(
 
     try {
       // @ts-ignore
-      const response: Tweet = await $fetch(
+      const response: Tweet = await ofetch(
         "https://cdn.syndication.twimg.com/tweet-result",
         {
-          method: 'GET',
+          method: "GET",
           responseType: "json",
           params: {
             id,
