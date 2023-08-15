@@ -13,6 +13,14 @@ export default cachedEventHandler(
     }
 
     try {
+      // test
+      const response1 = await ofetch(
+        `https://cdn.syndication.twimg.com/tweet-result?id=${id}&token=${getToken(
+          id
+        )}`
+      );
+      console.log(response1);
+
       // @ts-ignore
       const response: Tweet = await ofetch(
         "https://cdn.syndication.twimg.com/tweet-result",
