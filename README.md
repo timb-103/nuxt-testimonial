@@ -22,8 +22,6 @@
 1. Add `nuxt-twitter-testimonial` dependency to your project
 
 ```bash
-pnpm add -D nuxt-twitter-testimonial
-yarn add --dev nuxt-twitter-testimonial
 npm install --save-dev nuxt-twitter-testimonial
 ```
 
