@@ -3,13 +3,10 @@
 # Nuxt Twitter Testimonial
 
 [![npm version][npm-version-src]][npm-version-href]
-[![npm downloads][npm-downloads-src]][npm-downloads-href]
-[![License][license-src]][license-href]
 [![Nuxt][nuxt-src]][nuxt-href]
 
-Create a Twitter testimonial wall for your website.
+> Create a Twitter testimonial wall for your website.
 
-- [✨ &nbsp;Release Notes](/CHANGELOG.md)
 - [🏀 Online playground](https://stackblitz.com/github/your-org/nuxt-twitter-testimonial?file=playground%2Fapp.vue)
 
 ## Features
@@ -49,7 +46,7 @@ We provide a simple `<NuxtTestimonial />` component that you can add to your web
 ```vue
 <template>
   <NuxtTestimonial
-    :ids="ids" 
+    :ids="ids"
     :show-media="false"
     :max-columns="columns"
     :column-width="width"
@@ -57,26 +54,34 @@ We provide a simple `<NuxtTestimonial />` component that you can add to your web
 </template>
 
 <script setup>
-const ids = ref([
+const ids = [
   "1683982469752840193",
   // ... more twitter ids
-]);
+];
 const columns = ref(2);
 const width = ref(200);
 </script>
 ```
 
+We also provide a simple Tweet component if you want to build your own integrations:
+
+```vue
+<template>
+  <NuxtTweet :id="id" :show-media="false" />
+</template>
+
+<script setup>
+const id = "1683982469752840193";
+</script>
+```
 
 <!-- Badges -->
+
 [npm-version-src]: https://img.shields.io/npm/v/nuxt-twitter-testimonial/latest.svg?style=flat&colorA=18181B&colorB=28CF8D
 [npm-version-href]: https://npmjs.com/package/nuxt-twitter-testimonial
-
 [npm-downloads-src]: https://img.shields.io/npm/dm/nuxt-twitter-testimonial.svg?style=flat&colorA=18181B&colorB=28CF8D
 [npm-downloads-href]: https://npmjs.com/package/nuxt-twitter-testimonial
-
 [license-src]: https://img.shields.io/npm/l/nuxt-twitter-testimonial.svg?style=flat&colorA=18181B&colorB=28CF8D
 [license-href]: https://npmjs.com/package/nuxt-twitter-testimonial
-
 [nuxt-src]: https://img.shields.io/badge/Nuxt-18181B?logo=nuxt.js
 [nuxt-href]: https://nuxt.com
-
