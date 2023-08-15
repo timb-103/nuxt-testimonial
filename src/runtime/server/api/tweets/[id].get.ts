@@ -19,20 +19,7 @@ export default cachedEventHandler(
           method: "GET",
           responseType: "json",
           headers: {
-            "User-Agent":
-              "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/114.0",
-            Accept: "*/*",
-            "Accept-Language": "en-US,en;q=0.5",
-            "Accept-Encoding": "gzip, deflate, br",
-            Origin: "https://platform.twitter.com",
-            Connection: "keep-alive",
-            Referer: "https://platform.twitter.com/",
-            "Sec-Fetch-Dest": "empty",
-            "Sec-Fetch-Mode": "cors",
-            "Sec-Fetch-Site": "cross-site",
-            Pragma: "no-cache",
-            "Cache-Control": "no-cache",
-            TE: "trailers",
+            "User-Agent": "tc-bot/1.0",
           },
           params: {
             id,
