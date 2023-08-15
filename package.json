@@ -1,6 +1,6 @@
 {
   "name": "nuxt-testimonial",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Create a Twitter testimonial wall for your Nuxt website.",
   "repository": "https://github.com/timb-103/nuxt-testimonial",
   "license": "MIT",
@@ -31,6 +31,7 @@
   "dependencies": {
     "@nuxt/kit": "3.6.5",
     "@yeger/vue-masonry-wall": "4.2.1",
+    "cheerio": "^1.0.0-rc.12",
     "nuxt-simple-css": "1.0.3",
     "ofetch": "^1.1.1"
   },
