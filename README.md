@@ -1,4 +1,4 @@
-!(Nust Twitter Testimonial)[./.github/assets/og.png]
+![Nuxt Twitter Testimonial](./.github/assets/og.png)
 
 # Nuxt Twitter Testimonial
 
@@ -46,9 +46,9 @@ We provide a simple `<NuxtTestimonial />` component that you can add to your web
 
 **Example**
 
-``vue
+```vue
 <template>
-<NuxtTestimonial
+  <NuxtTestimonial
     :ids="ids" 
     :show-media="false"
     :max-columns="columns"
@@ -64,7 +64,6 @@ const ids = ref([
 const columns = ref(2);
 const width = ref(200);
 </script>
-
 ```
 
 
@@ -80,4 +79,4 @@ const width = ref(200);
 
 [nuxt-src]: https://img.shields.io/badge/Nuxt-18181B?logo=nuxt.js
 [nuxt-href]: https://nuxt.com
-```
+
