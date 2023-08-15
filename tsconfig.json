@@ -1,0 +1,13 @@
+{
+  "extends": "./playground/.nuxt/tsconfig.json",
+  /*
+   * For some reason, without this following config, using #imports in the playground
+   * and import.meta in module.ts give me TS errors.
+   */
+  "include": [
+    "src",
+    "playground",
+    "./playground/.nuxt/nuxt.d.ts",
+    "./dist/types.d.ts"
+  ]
+}
