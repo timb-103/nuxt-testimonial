@@ -1,11 +1,12 @@
 {
   "private": true,
-  "name": "my-module-playground",
+  "name": "nuxt-testimonial-playground",
   "type": "module",
   "scripts": {
     "dev": "nuxi dev",
     "build": "nuxi build",
-    "generate": "nuxi generate"
+    "generate": "nuxi generate",
+    "start": "node .output/server/index.mjs"
   },
   "devDependencies": {
     "nuxt": "latest"
