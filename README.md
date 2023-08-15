@@ -1,4 +1,4 @@
-![Nuxt Twitter Testimonial](./.github/assets/og.png)
+![Nuxt Twitter Testimonial](./.github/assets/og-landscape.png)
 
 # Nuxt Twitter Testimonial
 
