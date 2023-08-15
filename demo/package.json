@@ -1,0 +1,18 @@
+{
+  "private": true,
+  "name": "nuxt-testimonial-demo",
+  "type": "module",
+  "scripts": {
+    "dev": "nuxi dev",
+    "build": "nuxi build",
+    "generate": "nuxi generate",
+    "start": "node .output/server/index.mjs"
+  },
+  "devDependencies": {
+    "nuxt": "latest"
+  },
+  "dependencies": {
+    "nuxt-simple-css": "^1.0.3",
+    "nuxt-testimonial": "1.0.0"
+  }
+}
