@@ -13,6 +13,6 @@
   },
   "dependencies": {
     "nuxt-simple-css": "^1.0.3",
-    "nuxt-testimonial": "1.0.0"
+    "nuxt-testimonial": "1.0.1"
   }
 }
