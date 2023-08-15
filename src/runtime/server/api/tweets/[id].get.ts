@@ -16,6 +16,7 @@ export default cachedEventHandler(
       const response: Tweet = await $fetch(
         "https://cdn.syndication.twimg.com/tweet-result",
         {
+          method: 'GET',
           responseType: "json",
           params: {
             id,
