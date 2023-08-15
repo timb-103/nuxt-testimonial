@@ -22,8 +22,6 @@
     </div>
   </form>
 
-  <div style="height: 2000px"></div>
-
   <!-- Testimonial Wall -->
   <NuxtTestimonial
     :ids="ids"

@@ -16,6 +16,7 @@
 - 💿 Server side cached for speed
 - 🌪 No layout shift (SSR)
 - ⚡ Fast & Easy setup
+- 🦥 Lazy loading
 
 ## Quick Setup
 

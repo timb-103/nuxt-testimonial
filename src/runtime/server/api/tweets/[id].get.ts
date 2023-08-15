@@ -6,7 +6,6 @@ import { cachedEventHandler } from "#imports";
 export default cachedEventHandler(
   async (event) => {
     const id = event.context.params?.id;
-    console.log("getting!");
 
     if (!id) {
       return createError({ statusMessage: "No id provided.", statusCode: 401 });
@@ -38,8 +37,6 @@ export default cachedEventHandler(
           },
         }
       );
-
-      console.log(response);
 
       if (response) {
         return {
