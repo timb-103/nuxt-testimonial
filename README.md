@@ -1,13 +1,13 @@
-![Nuxt Twitter Testimonial](./.github/assets/og-landscape.png)
+![Nuxt Testimonial](./.github/assets/og-landscape.png)
 
-# Nuxt Twitter Testimonial
+# Nuxt Testimonial
 
 [![npm version][npm-version-src]][npm-version-href]
 [![Nuxt][nuxt-src]][nuxt-href]
 
-> Create a Twitter testimonial wall for your website.
+> Create a Twitter testimonial wall for your Nuxt website.
 
-- [🏀 Online playground](https://stackblitz.com/github/your-org/nuxt-twitter-testimonial?file=playground%2Fapp.vue)
+- [🏀 Online playground](https://stackblitz.com/github/your-org/nuxt-testimonial?file=playground%2Fapp.vue)
 
 ## Features
 
@@ -20,21 +20,21 @@
 
 ## Quick Setup
 
-1. Add `nuxt-twitter-testimonial` dependency to your project
+1. Add `nuxt-testimonial` dependency to your project
 
 ```bash
-npm install --save-dev nuxt-twitter-testimonial
+npm install --save-dev nuxt-testimonial
 ```
 
-2. Add `nuxt-twitter-testimonial` to the `modules` section of `nuxt.config.ts`
+2. Add `nuxt-testimonial` to the `modules` section of `nuxt.config.ts`
 
 ```js
 export default defineNuxtConfig({
-  modules: ["nuxt-twitter-testimonial"],
+  modules: ["nuxt-testimonial"],
 });
 ```
 
-That's it! You can now use Nuxt Twitter Testimonial in your Nuxt app ✨
+That's it! You can now use Nuxt Testimonial in your Nuxt app ✨
 
 ## Usage
 
@@ -76,11 +76,11 @@ const id = "1683982469752840193";
 
 <!-- Badges -->
 
-[npm-version-src]: https://img.shields.io/npm/v/nuxt-twitter-testimonial/latest.svg?style=flat&colorA=18181B&colorB=28CF8D
-[npm-version-href]: https://npmjs.com/package/nuxt-twitter-testimonial
-[npm-downloads-src]: https://img.shields.io/npm/dm/nuxt-twitter-testimonial.svg?style=flat&colorA=18181B&colorB=28CF8D
-[npm-downloads-href]: https://npmjs.com/package/nuxt-twitter-testimonial
-[license-src]: https://img.shields.io/npm/l/nuxt-twitter-testimonial.svg?style=flat&colorA=18181B&colorB=28CF8D
-[license-href]: https://npmjs.com/package/nuxt-twitter-testimonial
+[npm-version-src]: https://img.shields.io/npm/v/nuxt-testimonial/latest.svg?style=flat&colorA=18181B&colorB=28CF8D
+[npm-version-href]: https://npmjs.com/package/nuxt-testimonial
+[npm-downloads-src]: https://img.shields.io/npm/dm/nuxt-testimonial.svg?style=flat&colorA=18181B&colorB=28CF8D
+[npm-downloads-href]: https://npmjs.com/package/nuxt-testimonial
+[license-src]: https://img.shields.io/npm/l/nuxt-testimonial.svg?style=flat&colorA=18181B&colorB=28CF8D
+[license-href]: https://npmjs.com/package/nuxt-testimonial
 [nuxt-src]: https://img.shields.io/badge/Nuxt-18181B?logo=nuxt.js
 [nuxt-href]: https://nuxt.com

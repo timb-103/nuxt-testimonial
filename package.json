@@ -1,8 +1,8 @@
 {
-  "name": "my-module",
+  "name": "nuxt-testimonial",
   "version": "1.0.0",
-  "description": "My new Nuxt module",
-  "repository": "your-org/my-module",
+  "description": "Create a Twitter testimonial wall for your Nuxt website.",
+  "repository": "https://github.com/timb-103/nuxt-testimonial",
   "license": "MIT",
   "type": "module",
   "exports": {
@@ -28,19 +28,19 @@
     "test:watch": "vitest watch"
   },
   "dependencies": {
-    "@nuxt/kit": "^3.6.5",
-    "@yeger/vue-masonry-wall": "^4.2.1",
-    "nuxt-simple-css": "^1.0.3"
+    "@nuxt/kit": "3.6.5",
+    "@yeger/vue-masonry-wall": "4.2.1",
+    "nuxt-simple-css": "1.0.3"
   },
   "devDependencies": {
     "@nuxt/devtools": "latest",
-    "@nuxt/eslint-config": "^0.1.1",
-    "@nuxt/module-builder": "^0.4.0",
-    "@nuxt/schema": "^3.6.5",
-    "@types/node": "^18.17.3",
-    "changelogen": "^0.5.4",
-    "eslint": "^8.46.0",
-    "nuxt": "^3.6.5",
-    "vitest": "^0.34.1"
+    "@nuxt/eslint-config": "0.1.1",
+    "@nuxt/module-builder": "0.4.0",
+    "@nuxt/schema": "3.6.5",
+    "@types/node": "18.17.3",
+    "changelogen": "0.5.4",
+    "eslint": "8.46.0",
+    "nuxt": "3.6.5",
+    "vitest": "0.34.1"
   }
 }
