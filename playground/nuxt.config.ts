@@ -1,6 +1,5 @@
 export default defineNuxtConfig({
-  modules: ["../src/module", "nuxt-simple-css"],
-  myModule: {},
+  modules: ["nuxt-testimonial", "nuxt-simple-css"], // "../src/module"
   devtools: { enabled: false },
   vite: {
     server: {
