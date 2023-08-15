@@ -2,7 +2,6 @@ import { defineEventHandler, createError } from "h3";
 import type { Tweet } from "../../../../types";
 import { useRenderTweet } from "../../utils/render";
 import { cachedEventHandler } from "#imports";
-import { ofetch } from "ofetch";
 
 export default cachedEventHandler(
   async (event) => {
@@ -13,20 +12,28 @@ export default cachedEventHandler(
     }
 
     try {
-      // test
-      const response1 = await ofetch(
-        `https://cdn.syndication.twimg.com/tweet-result?id=${id}&token=${getToken(
-          id
-        )}`
-      );
-      console.log(response1);
-
       // @ts-ignore
-      const response: Tweet = await ofetch(
+      const response: Tweet = await $fetch(
         "https://cdn.syndication.twimg.com/tweet-result",
         {
           method: "GET",
           responseType: "json",
+          headers: {
+            "User-Agent":
+              "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/114.0",
+            Accept: "*/*",
+            "Accept-Language": "en-US,en;q=0.5",
+            "Accept-Encoding": "gzip, deflate, br",
+            Origin: "https://platform.twitter.com",
+            Connection: "keep-alive",
+            Referer: "https://platform.twitter.com/",
+            "Sec-Fetch-Dest": "empty",
+            "Sec-Fetch-Mode": "cors",
+            "Sec-Fetch-Site": "cross-site",
+            Pragma: "no-cache",
+            "Cache-Control": "no-cache",
+            TE: "trailers",
+          },
           params: {
             id,
             lang: "en",
