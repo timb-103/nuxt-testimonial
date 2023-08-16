@@ -1,18 +1,18 @@
 {
+  "name": "nuxt-app",
   "private": true,
-  "name": "nuxt-testimonial-demo",
-  "type": "module",
   "scripts": {
-    "dev": "nuxi dev",
-    "build": "nuxi build",
-    "generate": "nuxi generate",
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
     "start": "node .output/server/index.mjs"
   },
   "devDependencies": {
-    "nuxt": "latest"
-  },
-  "dependencies": {
-    "nuxt-simple-css": "^1.0.3",
-    "nuxt-testimonial": "1.0.1"
+    "@nuxt/devtools": "latest",
+    "@types/node": "^18.17.3",
+    "nuxt": "^3.6.5",
+    "nuxt-testimonial": "^1.0.4"
   }
 }

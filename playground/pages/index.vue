@@ -27,7 +27,7 @@
 <script setup lang="ts">
 import { ref } from "#imports";
 
-const show = ref("testimonial");
+const show = ref("tweet");
 </script>
 
 <style scoped>
