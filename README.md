@@ -7,7 +7,7 @@
 
 > Create a Twitter testimonial wall for your Nuxt website.
 
-- [🏀 Online playground](https://stackblitz.com/github/your-org/nuxt-testimonial?file=playground%2Fapp.vue)
+- [Live Demo](https://nuxt-testimonial.vercel.app/)
 
 ## Features
 
