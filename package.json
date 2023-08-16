@@ -1,6 +1,6 @@
 {
   "name": "nuxt-testimonial",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Create a Twitter testimonial wall for your Nuxt website.",
   "repository": "https://github.com/timb-103/nuxt-testimonial",
   "license": "MIT",
