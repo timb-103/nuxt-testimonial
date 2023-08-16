@@ -14,5 +14,8 @@
     "@types/node": "^18.17.3",
     "nuxt": "^3.6.5",
     "nuxt-testimonial": "^1.0.4"
+  },
+  "dependencies": {
+    "nuxt-simple-css": "^1.0.3"
   }
 }
